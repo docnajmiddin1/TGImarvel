@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">💥 T.G.I MARVEL</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="books.html">Комиксы</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+
+    <div class="search-box">
+        <input type="text" placeholder="Поиск...">
+        <button>🔍</button>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+</nav>
+
+<!-- CONTACT PAGE -->
+
+<section class="contact-page">
+
+    <h1>📬 Контакты</h1>
+
+    <div class="contact-wrapper">
+
+        <!-- LEFT -->
+
+        <div class="contact-info-box">
+
+            <h2>Свяжитесь с нами</h2>
+
+            <p>📧 docnajmiddin@gmail.com</p>
+            <p>📱 Telegram: najmiddin1966</p>
+            <p>📍 Tashkent, Uzbekistan</p>
+
+            <p class="contact-description">
+                Если у вас возникли вопросы,
+                проблемы с заказом или предложения —
+                напишите нам.
+            </p>
+
+        </div>
+
+        <!-- RIGHT 
+        <form class="contact-form">
+
+            <input type="text" placeholder="Ваше имя">
+
+            <input type="email" placeholder="Ваш Email">
+
+            <textarea placeholder="Ваше сообщение"></textarea>
+
+            <button type="submit">Отправить</button>
+
+        </form>
+
+    </div>
+-->
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>T.G.I Marvel</h2>
+            <p>Лучшие комиксы и графические новеллы</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Навигация</h3>
+
+            <a href="index.html">Главная</a>
+            <a href="books.html">Комиксы</a>
+            <a href="#">О нас</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 T.G.I Marvel. Все права защищены.
+    </div>
+
+</footer>
+
+<script>
+const toggle = document.getElementById('menu-toggle');
+const links = document.querySelector('.nav-links');
+
+toggle.addEventListener('click', () => {
+    links.classList.toggle('active');
+});
+</script>
+
+</body>
+</html>

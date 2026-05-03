@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>T.G.I MARVEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">💥 T.G.I MARVEL</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="books.html">Комиксы</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+
+    <!-- 🔍 ПОИСК -->
+    <div class="search-box">
+        <input type="text" placeholder="Поиск...">
+        <button>🔍</button>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+</nav>
+
+<section class="hero">
+    <h1>💥 Добро пожаловать в мир комиксов</h1>
+    <p>Покупай комиксы Марвел в оригинале. Заказы принимаются по Телеграм</p>
+    <a href="books.html" class="hero-btn">Начать</a>
+</section>
+
+<script>
+const toggle = document.getElementById('menu-toggle');
+const links = document.querySelector('.nav-links');
+
+toggle.addEventListener('click', () => {
+    links.classList.toggle('active');
+});
+</script>
+
+<section class="featured">
+    
+    <div class="featured-banner">
+        <img src="img/2DhmtJ4.jpeg" alt="">
+    </div>
+
+    <div class="comic-card">
+        <div class="discount">40% OFF</div>
+
+        <img src="img/spiderman79.jpg" alt="">
+
+        <h3>ULTIMATE SPIDER MAN ISSUE 79</h3>
+
+        <div class="price">$7.99</div>
+
+        <button>Купить</button>
+
+    </div>
+
+    <div class="comic-card">
+        <div class="discount">40% OFF</div>
+
+        <img src="img/spiderman80.jpg" alt="">
+
+        <h3>ULTIMATE SPIDER MAN ISSUE 80</h3>
+
+        <div class="price">$7.99</div>
+
+        <button>Купить</button>
+
+    </div>
+
+    <div class="comic-card">
+        <div class="discount">30% OFF</div>
+
+        <img src="img/spiderman81.jpg" alt="">
+
+        <h3>ULTIMATE SPIDER MAN ISSUE 81</h3>
+
+        <div class="price">$7.99</div>
+
+        <button>Купить</button>
+
+    </div>
+
+</section>
+
+<!---------------------------------------------------------------------------------->
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>T.G.I MARVEL</h2>
+            <p>Лучшие комиксы и графические новеллы</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Навигация</h3>
+
+            <a href="index.html">Главная</a>
+            <a href="books.html">Комиксы</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Соцсети</h3>
+
+            <a href="https://www.instagram.com/therealnajmiddin/">Instagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">YouTube</a>
+            <a href="#">Discord</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 T.G.I MARVEL. Все права защищены.
+    </div>
+
+</footer>
+</body>
+</html>
